@@ -1,0 +1,236 @@
+	*{margin:0;padding:0}
+	div{font-size:14px;font-style:normal;}
+	
+	/* 导航条的样式设置 */
+	#program{
+		overflow-x:hidden;
+	}
+	
+	/**Log的样式设置*/
+	#showLog{
+		float:left;
+		height:65px;
+		width:200px;;
+		background-color:#380000;
+		color:white;
+	}
+	
+	#showLog > #show{
+		margin-top:20px;
+	}
+	#showLog > #show > #log{
+		margin-left:20px;
+		font-size:24px;
+	}
+	
+	/**栏目的样式设置*/
+	#showTitle{
+		float:left;
+		height:65px;
+		width:100%;
+		background-color:#380000;
+		color:white;
+		/* margin-left:200px; */ 
+		margin-right:-420px;
+	}
+	#showTitle > ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+	}
+	#showTitle >ul > li{
+		float:left;
+		margin-left:45px;
+		margin-top:23px;
+		font-size:16px;
+		width:85px;
+	}
+	#showTitle>ul>li>a{
+		color:white;
+		text-decoration:none;
+		
+	}
+	#showTitle>ul>li>a:visted{
+		color:#E0E0E0;
+		text-decoration:none;
+	}
+	#showTitle>ul>li>a:hover{
+		color:white;
+		text-decoration:none;
+		background-color:#888888
+		/* border-top:2px solid pink;
+		border-right:2px solid pink; */
+	}
+	#showTitle>ul>li>a:active{
+		color:red;
+		text-decoration:none;
+	}
+	
+	/**搜索框的样式设置*/
+	#search{
+	    font-size:15px;
+		float:right;
+		width:190px;
+	}
+	#search>#show{
+		height:45px;
+		margin-top:10px;
+		width:190px;
+	}
+	#search>#show>#searchInput{
+		color:white;
+	}
+	#search>#show>#searchInput>input{
+		width:145px;
+		height:32px;
+		margin-top:10px;
+		border: 1px solid #e2e2e2;
+		border-radius:14px;
+	}
+	#search>#show>#searchInput>label{
+		height:35px;
+		width:39px;
+		margin-top:10px;
+		font-size:16px;
+	}
+	
+	
+		/**发现音乐的子栏目设计*/
+	#program_findmusic>#triangle{
+		height: 0; width: 0;
+		margin-left:270px;
+   		border-left: 6px solid transparent;
+    	border-right: 6px solid transparent;
+   		border-bottom: 6px solid white;
+    }
+	#program_findmusic{
+		background-color:#980000;
+		color:white;
+		height:38px;
+	}
+	
+	#program_findmusic>#showFunction>ul{
+		list-style-type:none;
+		margin-left:218px;
+		padding:0;
+	}
+	#program_findmusic>#showFunction>ul>li{
+		float:left;
+		margin-left:45px;
+		margin-top:10px;
+	}
+	#program_findmusic>#showFunction>ul>li>a{
+		color:white;
+		text-decoration:none;
+	}
+	#program_findmusic>#showFunction>ul>li>a:vistied{
+		color:#E0E0E0
+		text-decoration:none;
+	}
+	#program_findmusic>#showFunction>ul>li>a:hover{
+		color:white;
+		text-decoration:none;
+		background-color:#580000
+	}
+	#program_findmusic>#showFunction>ul>li>a:active{
+		color:red;
+		text-decoration:none;
+	}
+	
+	
+	#lunbo{
+		height:308px;
+		background-image:url(images/1.jpg);
+		background-repeat:repeat;
+		background-size:contain;
+		position:relative;
+	}
+	#lunbo>#left{
+		float:left;
+		margin-left:100px;
+		margin-top:118px;
+		font-size:53px;
+		color:white;
+	}
+	#lunbo>#right{
+		float:left;
+		margin-left:1030px;
+		margin-top:118px;
+		font-size:62px;
+		color:white;
+	}
+	
+	#lunbo a{
+		color:#F8F8F8;
+		text-decoration:none;
+	}
+	
+	#lunbo a:hover{
+		color:#D0D0D0;
+		text-decoration:none;
+		background-color:#B0B0B0;
+	}
+	
+	
+		
+	/* 内容样式的css*/
+	#content{
+		height:600px;
+		background-color:#C8C8C8;
+		overflow-x:hidden;
+		overflow-x:auto;
+	}
+	
+	#content>#showSingle{
+		float:left;
+		width:780px;
+		background-color:#F8F8F8;
+		margin-left:100px;
+	}
+	
+	#content>#showSingle>#choice>label{
+		font-size:26px;
+		float:left;
+		margin-left:20px;
+		width:180px;
+		color:black;
+	}
+	
+	#content>#showSingle>#choice>ul{
+		float:left;
+		list-style-type:none;
+		/* margin-left:210px; */
+		padding:0;
+		margin-right:-300px;
+	}
+	#content>#showSingle>#choice>ul>li{
+		float:left;
+		margin-left:20px; 
+		margin-top:10px;
+	}
+	
+	#content>#showSingle>#choice>ul>li>a{
+		text-decoration:none;
+		color:#A0A0A0;
+	}
+	#content>#showSingle>#choice>ul>li>a:hover{
+		text-decoration:underline;
+	}
+	
+	#content>#showSingle>#more{
+		float:right;
+		width:100px;
+		margin-top:10px;
+	}
+	#content>#showSingle>#more>a{
+		margin-left:10px;
+		text-decoration:none;
+		color:#A0A0A0;
+	}
+	#content>#showSingle>#more>a{
+		text-decoration:underline;
+	}
+	#content>#showSingle>#more>label{
+		color:red;
+		font-weight:bold;
+	}
